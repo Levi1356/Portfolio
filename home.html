@@ -1,0 +1,101 @@
+<head>
+    <title>Test</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    
+    <script src="script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      },1400, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+</head>
+<body>
+<img class="testImg" src="https://blog.allcancode.com/hubfs/code.jpg">
+ 
+    <div class="test">
+
+    <section class="home">
+        <div id="home">
+            <br>
+            <ul>
+                <li> <a href=#home>Home</a> </li>
+                <li> <a href=#project>Projects</a> </li>
+                <li> <a href=#about>About</a> </li>
+                <li> <a href=#contact>Contact Me</a> </li>
+            </ul>
+        </div>
+    </section>
+   
+<div class="nav2">
+    <div class="name">Levi Kelley</div>
+    <br><br>
+    <div class="littleAboutMe">TO DO LIST: Add and fix all context. Add another image in about me. Try and fix open space at top of page. Find good color. </div>
+    <img class="me" src="https://i.ibb.co/xLsJVG1/levi-kelley-1.jpg"alt="Picture of me" style="height:600;">
+</div>
+ </div>
+
+
+
+<section class="project">
+    <div id="project">
+    <br><br><br><br><br>  <div class="test">   <br><br><br><br><br>
+    <div class="top">Top Projects</div>
+    <div class="tProjects">   
+        <a href="https://replit.com/@levik885/Levi-Kelley-Top-Down"  target="_blank"><img class="topDown" src="https://i.ibb.co/0yM1GQp/topdown.png" alt="topdown"></a>
+        <a href="https://replit.com/@ZAINSOHAIL/powerplanterindexhtml#index.html"  target="_blank"><img class="powerPlanter" src="https://i.ibb.co/ccS0T6J/powerplanter.png" alt="powerplanter"></a>
+    </div><br> <br> <br> <br> <br> 
+</div>
+</section>
+</div>
+<br><br><br><br><br> 
+<div class="test">
+<section class="about">
+<div id="about">
+    <br><br><br><br><br>
+    <div class="aboutHeading">About Me</div>
+    <a href="https://ibb.co/9rw861b"><img src="https://i.ibb.co/P6TmKPc/IMG-1628.jpg" class="soccerImg" style="height:400; transform: rotate(5deg);" alt="Soccer Photo" ></a>
+<p class="aboutMe">se hasdfh oasidhf iasdh f iashdf oiahsdifu hasdoif haosi foasd foaisdf oiasd fioasd f oiuahsdoifh aseoiuf haoid fhaouisdhf ioasdh foiuaeh fioasdh fiuoasdh fiashdf iuashdfi hasdoiuf hasoiudf hoiasdh foiuashd fiaegg gdfsdf</p>
+
+</div></div>
+</section>
+
+
+
+
+<section id="contact">
+    <br><br><br><br><br>
+    <div class="test"><br><br><br><br><br> 
+<div id="contant"><div class="getInTouch">Get In Touch</div>
+    <p class="email">levik885@gmail.com</p>
+    <p class="email">(Phone #)</p></div>
+    <br><br><br><br><br><br><br><br>
+</div>
+</section>
+<br><br><br><br><br>
+
+
+
+
+    </body>
