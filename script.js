@@ -56,7 +56,7 @@ function homeB() {
 
 }
 
-//
+
 
 function phone() {
     const element = document.getElementById("phone");
