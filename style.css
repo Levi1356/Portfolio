@@ -4,9 +4,11 @@ body {
     background-color: white;
     width: 100%;
     margin: auto;
+    font-family: Arima;
+    
 }
 
-.testImg {
+.backgroundImg {
     position: sticky;
     top: 0;
     width: 100%;
@@ -17,12 +19,40 @@ body {
 }
 
 
-.test {
+.cardB {
     margin: auto;
     background-color: white;
     border: 1px solid;
     border-radius: 30px;
     width: 70%;
+    height: 110%;
+}
+
+.cardB2 {
+    margin: auto;
+    background-color: white;
+    border: 1px solid;
+    border-radius: 30px;
+    width: 70%;
+    height: 130%;
+}  
+
+.cardB3 {
+    margin: auto;
+    background-color: white;
+    border: 1px solid;
+    border-radius: 30px;
+    width: 70%;
+    height: 110%;
+}  
+
+.cardB4 {
+    margin: auto;
+    background-color: white;
+    border: 1px solid;
+    border-radius: 30px;
+    width: 70%;
+    height: 90%;
 }  
 
 ul {
@@ -77,24 +107,25 @@ a:link {
 
 .me {
     position: relative;
-    bottom: 150px;
+    bottom: 250px;
     margin: 25px;
 }
 
 
 .name {
-    left: 600px;
-    margin-top: 50;
+    position: relative;
+    left: 50%;
+    margin: 50;
     font-size: 50px;
-    text-align: center;
+   
    
 }
 
 .littleAboutMe {
-    margin-left: 30%;
-    font-size: 50px;
+    margin-left: 40%;
+    font-size: 25px;
     text-align: center;
-     background-color: white;
+    background-color: white;
 }
 
 .aboutHeading {
@@ -108,11 +139,13 @@ a:link {
 
 .aboutMe {
     margin-left: 40%;
-    font-size: 35px;
+    font-size: 30px;
     text-align: center;
 }
 
 .soccerImg {
+    position: relative;
+    bottom: 450px;
     margin-left: 40;
     padding: 5;
     border: 15px double black;
@@ -137,6 +170,22 @@ a:link {
     width: 500;
 }
 
+
+.commentA {
+    text-align: left;
+    font-size: 25px;
+    margin-right: 50%;
+    margin-left: 10;
+}
+
+.commentB {
+    position: relative;
+    bottom: 80;
+    text-align: left;
+    font-size: 25px;
+    margin-left: 50%;
+    margin-right: 10;
+}
 .powerPlanter {
     border-radius: 10%;
     width: 500;
@@ -155,4 +204,18 @@ a:link {
     text-align: left;
     font-size: 40px;
     margin-left: 50px;
+}
+
+.phone {
+    text-align: left;
+    font-size: 40px;
+    margin-left: 50px;
+    width: 400;
+}
+
+.linkedin {
+  position: relative;
+  bottom: 50;
+  left: 50;
+    border-radius: 10%;
 }

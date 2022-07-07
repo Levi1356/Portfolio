@@ -1,7 +1,7 @@
 <head>
-    <title>Test</title>
+    <title>Portfolio</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
-    
+    <link href="https://fonts.googleapis.com/css2?family=Arima:wght@300&display=swap" rel="stylesheet">
     <script src="script.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script>
@@ -32,9 +32,9 @@ $(document).ready(function(){
 </script>
 </head>
 <body>
-<img class="testImg" src="https://blog.allcancode.com/hubfs/code.jpg">
+<img class="backgroundImg" src="https://blog.allcancode.com/hubfs/code.jpg">
  
-    <div class="test">
+    <div class="cardB">
 
     <section class="home">
         <div id="home">
@@ -51,7 +51,7 @@ $(document).ready(function(){
 <div class="nav2">
     <div class="name">Levi Kelley</div>
     <br><br>
-    <div class="littleAboutMe">TO DO LIST: Add and fix all context. Add another image in about me. Try and fix open space at top of page. Find good color. </div>
+    <div class="littleAboutMe">I am a rising Junior at (Insert Highschool). I am interested in either Software development or Pen Testing.</div>
     <img class="me" src="https://i.ibb.co/xLsJVG1/levi-kelley-1.jpg"alt="Picture of me" style="height:600;">
 </div>
  </div>
@@ -59,24 +59,32 @@ $(document).ready(function(){
 
 
 <section class="project">
-    <div id="project">
-    <br><br><br><br><br>  <div class="test">   <br><br><br><br><br>
+   
+    <br><br><br><br><br>  <div class="cardB2"><div id="project">   <br><br>
     <div class="top">Top Projects</div>
     <div class="tProjects">   
         <a href="https://replit.com/@levik885/Levi-Kelley-Top-Down"  target="_blank"><img class="topDown" src="https://i.ibb.co/0yM1GQp/topdown.png" alt="topdown"></a>
         <a href="https://replit.com/@ZAINSOHAIL/powerplanterindexhtml#index.html"  target="_blank"><img class="powerPlanter" src="https://i.ibb.co/ccS0T6J/powerplanter.png" alt="powerplanter"></a>
-    </div><br> <br> <br> <br> <br> 
+    </div> 
+    <div class="test">
+    <div class="commentA">I made this project 2 year in my computer science class.</div> 
+    <div class="commentB">This a soil moisture sensor. Me and my group made this in my computer science class last year.</div>
+    </div>
+    <br> <br> <br> <br> <br> 
+
+    
 </div>
+
 </section>
 </div>
 <br><br><br><br><br> 
-<div class="test">
+<div class="cardB3">
 <section class="about">
 <div id="about">
-    <br><br><br><br><br>
+    <br><br><br>
     <div class="aboutHeading">About Me</div>
+    <p class="aboutMe">Some of my hobbies include playing soccer, vidoe games, And sleeping? If you consider sleeping a hobby. I like to play video games a lot. I would say my favorite game is minecraft. I have just, this May, got A + certified. And if you don't know what it is you basically learn skills about Hardware, Networking, Operating systems, Software Troubleshooting, etc.</p>
     <a href="https://ibb.co/9rw861b"><img src="https://i.ibb.co/P6TmKPc/IMG-1628.jpg" class="soccerImg" style="height:400; transform: rotate(5deg);" alt="Soccer Photo" ></a>
-<p class="aboutMe">se hasdfh oasidhf iasdh f iashdf oiahsdifu hasdoif haosi foasd foaisdf oiasd fioasd f oiuahsdoifh aseoiuf haoid fhaouisdhf ioasdh foiuaeh fioasdh fiuoasdh fiashdf iuashdfi hasdoiuf hasoiudf hoiasdh foiuashd fiaegg gdfsdf</p>
 
 </div></div>
 </section>
@@ -86,11 +94,12 @@ $(document).ready(function(){
 
 <section id="contact">
     <br><br><br><br><br>
-    <div class="test"><br><br><br><br><br> 
+    <div class="cardB4"><br><br><br> 
 <div id="contant"><div class="getInTouch">Get In Touch</div>
-    <p class="email">levik885@gmail.com</p>
-    <p class="email">(Phone #)</p></div>
-    <br><br><br><br><br><br><br><br>
+    <p onclick="copyText1();" id="email" class="email">levik885@gmail.com</p>
+    <p onclick="phone();" onmouseover="phone1();" onmouseleave="phone();"  id="phone" class="phone">Phone #</p></div>
+    
+    <br><a href="https://www.linkedin.com/in/levi-kelley-295214243/" target="_blank"><img class="linkedin" src="https://cdn3.iconfinder.com/data/icons/inficons/512/linkedin.png" width="10%"></a><br><br><br><br><br><br><br>
 </div>
 </section>
 <br><br><br><br><br>
